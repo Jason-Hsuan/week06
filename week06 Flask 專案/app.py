@@ -17,8 +17,6 @@ mysql = MySQL(app)
 
 
 mycursor = mysql.connect().cursor()
-mycursor.execute("use website")
-mycursor.execute("select name from user")
 
 
 #使用GET方法，處理路徑/的對應函式
