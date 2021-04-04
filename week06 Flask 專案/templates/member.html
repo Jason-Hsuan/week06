@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>member page</title>
+    </head>
+<style type="text/css">
+    .page_title{
+        background-color: #003344;
+        color:white;
+        font-weight:bold;
+        font-size:30px;
+        text-align:center;
+        padding:10px;
+        }
+    .box_content{
+        display: block;
+        height:100px;
+    }
+    .content{
+        font-weight:bold;
+        font-size:30px;
+        text-align:center;
+        align-content: center;
+        line-height: 100px;
+    }
+</style>
+    <body>
+        <div class="page_title">歡迎光臨，這是會員頁面！</div>
+        <div class="box_content">
+            <div class="content">恭喜{{ name }}，成功登入</div>
+        </div>
+        <div class="box_content">
+            <div class="content">
+                <a href="/signout">登出頁面</a>
+            </div>
+        </div>
+    </body>
+</html>
