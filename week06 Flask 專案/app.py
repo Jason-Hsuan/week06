@@ -10,7 +10,7 @@ app=Flask(__name__, static_folder="public", static_url_path="/")
 app.secret_key="jjhome"
 app.config['MYSQL_DATABASE_HOST'] = 'localhost'
 app.config['MYSQL_DATABASE_USER'] = 'root'
-app.config['MYSQL_DATABASE_PASSWORD'] = 'qaz28331016'
+app.config['MYSQL_DATABASE_PASSWORD'] = 'xxxxxxx'
 app.config['MYSQL_DATABASE_DB'] = 'website'
 
 mysql = MySQL(app)
